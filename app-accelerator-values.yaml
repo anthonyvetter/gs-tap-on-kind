@@ -1,0 +1,10 @@
+registry:
+  server: "registry.pivotal.io"
+  username: "username@domain.com" # change this
+  password: "*******************" # change this
+server:
+  service_type: "NodePort" # using NodePort for local install
+  watched_namespace: "default"
+  engine_invocation_url: "http://acc-engine.accelerator-system.svc.cluster.local/invocations"
+engine:
+  service_type: "ClusterIP" 

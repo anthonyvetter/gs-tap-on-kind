@@ -1,0 +1,67 @@
+---
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: new-accelerator
+spec:
+  git:
+    url: https://github.com/sample-accelerators/new-accelerator
+    ref:
+      branch: main
+      tag: v0.2.x
+---
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: hello-fun
+spec:
+  git:
+    url: https://github.com/sample-accelerators/hello-fun
+    ref:
+      branch: main
+      tag: v0.2.x
+---
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: hello-ytt
+spec:
+  git:
+    url: https://github.com/sample-accelerators/hello-ytt
+    ref:
+      branch: main
+      tag: v0.2.x
+---
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: spring-petclinic
+spec:
+  git:
+    ignore: ".git"
+    url: https://github.com/sample-accelerators/spring-petclinic
+    ref:
+      branch: main
+      tag: v0.2.x
+---
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: spring-sql-jpa
+spec:
+  git:
+    url: https://github.com/sample-accelerators/spring-sql-jpa
+    ref:
+      branch: main
+      tag: v0.2.x
+---
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: node-accelerator
+spec:
+  git:
+    url: https://github.com/sample-accelerators/node-accelerator
+    ref:
+      branch: main
+      tag: v0.2.x

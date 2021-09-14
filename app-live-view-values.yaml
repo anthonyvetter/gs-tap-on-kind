@@ -1,0 +1,5 @@
+---
+registry:
+  server: "registry.pivotal.io"
+  username: "username@domain.com" # change this
+  password: "*******************" # change this

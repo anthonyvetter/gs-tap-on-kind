@@ -1,0 +1,19 @@
+---
+registry:
+ server: "registry.pivotal.io"
+ username: "username@domain.com" # change this
+ password: "*******************" # change this
+
+provider: local # using local for this local install
+pdb:
+ enable: "true"
+
+ingress:
+ reuse_crds:
+ external:
+   namespace:
+ internal:
+   namespace:    
+
+local_dns: 
+  enable: "true"
