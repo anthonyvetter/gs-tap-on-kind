@@ -2,14 +2,14 @@
 apiVersion: kpack.io/v1alpha1
 kind: Image
 metadata:
-  name: spring-petclinic-image
+  name: spring-petclinic-kind
 spec:
-  tag: <dockerhub-username>/spring-petclinic-image # change this
+  tag: <dockerhub-username>/spring-petclinic-kind # change this
   serviceAccount: default
   builder:
     kind: ClusterBuilder
     name: default
   source:
     git:
-      url: https://github.com/<github-username>/spring-petclinic # change this
+      url: https://github.com/<github-username>/spring-petclinic-kind # change this
       revision: main
