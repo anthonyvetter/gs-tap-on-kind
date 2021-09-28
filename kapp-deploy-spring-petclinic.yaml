@@ -36,7 +36,7 @@ spec:
                     tanzu.app.live.view.application.name: "spring-petclinic"
                 spec:
                   containers:
-                  - image: <github-username>/spring-petclinic-kind:latest # change this
+                  - image: <dockerhub-username>/spring-petclinic-kind:latest # change this
                     securityContext:
                       runAsUser: 1000
   template:
